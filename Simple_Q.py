@@ -2,7 +2,6 @@ import world
 import policy
 
 import numpy as np
-import pickle
 
 nA = 4 # Number of actions
 nC = 5 # Number of columns

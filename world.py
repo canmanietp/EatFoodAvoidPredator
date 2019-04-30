@@ -8,13 +8,11 @@ nC = 5 # number of columns
 class RabbitWorld(discreteWorld.DiscreteEnv):
     """
     Actions:
-    There are 6 discrete deterministic actions:
+    There are 4 discrete deterministic actions:
     - 0: move south
     - 1: move north
     - 2: move east
     - 3: move west
-    - 4: eat
-    - 5: hide
     """
 
     def __init__(self):

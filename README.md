@@ -4,6 +4,10 @@ This code has been made available to students of the course CS4210-B - Intellige
 
 The agent is a rabbit in a grid world. A food item and wolf also exist in the world. The rabbit gets reward of 0.5 for every time step it avoids the wolf. The rabbit gets reward of 1 every time it reaches a food. When food is `got', it reappears randomly somewhere in the world. The wolf moves toward the rabbit every other time step. Each episode ends when the rabbit shares a grid with the wolf.
 
+<sup>1</sup>Satinder Singh and David Cohn. How to Dynamically Merge Markov Decision
+Processes. Advances in Neural Information Processing Systems 10, pages 1057{1063,
+1998.
+
 ## Necessary python packages
 numpy <br />
 matplotlib
@@ -17,9 +21,5 @@ run ```python test.py``` in the console
 - implementing maximum number of episodes (comment out the appropriate line in ```discreteWorld.py```) <br />
 - size of state space <br />
 - number of actions available to agent <br />
-
-<sup>1</sup>Satinder Singh and David Cohn. How to Dynamically Merge Markov Decision
-Processes. Advances in Neural Information Processing Systems 10, pages 1057{1063,
-1998.
 
 

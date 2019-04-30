@@ -39,6 +39,8 @@ def run(num_episodes):
             action = next_action
 
         episode_rewards.append(ep_reward)
+        
+        epsilon *= 0.99
 
         if alpha > 0.01:
             alpha *= 0.99

@@ -12,11 +12,11 @@ matplotlib
 run ```python test.py``` in the console
 
 ### Things to play around with
-reward function <br />
-epsilon (when agent is `smart' enough, you will find that if epsilon decays to a value that is too low the rabbit will never get caught by the wolf) <br />
-implementing maximum number of episodes (comment out the appropriate line in ```discreteWorld.py```) <br />
-size of state space <br />
-number of actions available to agent <br />
+- the reward function <br />
+- epsilon (when agent is `smart' enough, you will find that if epsilon decays to a value that is too low the rabbit will never get caught by the wolf) <br />
+- implementing maximum number of episodes (comment out the appropriate line in ```discreteWorld.py```) <br />
+- size of state space <br />
+- number of actions available to agent <br />
 
 
 
